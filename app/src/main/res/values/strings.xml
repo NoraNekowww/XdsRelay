@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XDS 功率中继</string>
+    <string name="notif_channel_name">中继运行状态</string>
+    <string name="notif_channel_desc">显示功率中继与广播的运行状态</string>
+</resources>

@@ -1,0 +1,12 @@
+﻿case                       HTTP  JSON  body head
+--------------------------------------------------------------------------------------------
+sanity: all 4 fields        200   YES  
+buffer_seconds EMPTY        200   YES  
+buffer_seconds NaN          422   YES  
+low_threshold NaN           200   YES  
+buffer_seconds abc          422   YES  
+NO fields at all            200   YES  
+smoothing_window 0          200   YES  
+huge numbers                200   YES  
+negative numbers            200   YES  
+fields as NaN/inf mix       422   YES  

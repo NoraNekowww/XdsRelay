@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path name="fit_ext" path="fit/" />
+    <files-path name="fit_int" path="fit/" />
+    <external-files-path name="gpx_ext" path="gpx/" />
+    <files-path name="gpx_int" path="gpx/" />
+    <cache-path name="fit_cache" path="." />
+</paths>

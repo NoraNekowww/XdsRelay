@@ -1,0 +1,33 @@
+﻿python : E:\Alpha_nz_Files\_toolchain\fit_matrix.py:2: SyntaxWarning: invalid escape sequence '\e'
+所在位置 行:1 字符: 34
++ cd E:\Alpha_nz_Files\_toolchain; python fit_matrix.py 2>&1 | Out-File ...
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (E:\Alpha_nz_Fil...e sequence '\e':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  """POST every FIT in out\variants and out\edge to nzlab, print one compact table.
+file                         bytes   HTTP  JSON  note
+------------------------------------------------------------------------------
+big.fit                     396425    200   YES  points=12000 active_dist=72.09
+empty.fit                        0    400   YES  points=0 active_dist=None
+full.fit                     20225    200   YES  points=600 active_dist=3.63
+garbage.fit                  20000    400   YES  points=0 active_dist=None
+nofix.fit                    20225    200   YES  points=0 active_dist=0.0
+nopower.fit                  20225    200   YES  points=600 active_dist=3.63
+text.fit                     15000    400   YES  points=0 active_dist=None
+tiny.fit                       524    200   YES  points=3 active_dist=0.02
+trunc_crc.fit                20218    200   YES  points=600 active_dist=3.63
+trunc_half.fit               10112    200   YES  points=303 active_dist=5.0
+trunc_rec.fit                 5000    200   YES  points=148 active_dist=2.37
+e_all_invalid.fit            20225    200   YES  points=0 active_dist=0.0
+e_cad0.fit                   20225    200   YES  points=600 active_dist=3.63
+e_cad0_pow0.fit              20225    200   YES  points=600 active_dist=3.63
+e_cadinv.fit                 20225    200   YES  points=600 active_dist=3.63
+e_onerec_zerotime.fit          458    200   YES  points=1 active_dist=0.0
+e_ts_2038.fit                20225    200   YES  points=600 active_dist=0.0
+e_ts_2100.fit                20225    200   YES  points=600 active_dist=0.0
+e_zero.fit                     425    400   YES  points=0 active_dist=None
+e_zeroelapsed.fit            20225    200   YES  points=600 active_dist=0.0
+e_zerospeed.fit              20225    200   YES  points=600 active_dist=0.0
+------------------------------------------------------------------------------
+total=21  not-json/failed=0

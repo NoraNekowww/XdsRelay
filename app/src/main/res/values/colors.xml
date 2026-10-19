@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#0E1116</color>
+    <color name="surface">#171B22</color>
+    <color name="surface2">#1F242D</color>
+    <color name="stroke">#2A313C</color>
+    <color name="text">#E8EDF2</color>
+    <color name="muted">#8A94A6</color>
+    <color name="accent">#00E5C0</color>
+    <color name="accent2">#FF7A45</color>
+    <color name="accent3">#4D9CFF</color>
+    <color name="ok">#37D67A</color>
+    <color name="warn">#FFB020</color>
+    <color name="err">#FF5C5C</color>
+    <color name="left_power">#4D9CFF</color>
+    <color name="right_power">#FF7A45</color>
+    <color name="ic_launcher_background">#0E1116</color>
+</resources>

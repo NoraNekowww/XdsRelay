@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.XdsRelay" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">@color/bg</item>
+        <item name="colorPrimaryContainer">@color/surface2</item>
+        <item name="colorOnPrimaryContainer">@color/text</item>
+        <item name="colorSecondary">@color/accent2</item>
+        <item name="colorOnSecondary">@color/bg</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text</item>
+        <item name="colorSurfaceVariant">@color/surface2</item>
+        <item name="colorOnSurfaceVariant">@color/muted</item>
+        <item name="colorOutline">@color/stroke</item>
+        <item name="colorError">@color/err</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:textColorSecondary">@color/muted</item>
+        <item name="materialCardViewStyle">@style/XdsCard</item>
+    </style>
+
+    <style name="XdsButtonBig" parent="Widget.Material3.Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">68dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">14sp</item>
+        <item name="android:autoSizeMaxTextSize">20sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <style name="XdsCard" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/stroke</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="contentPadding">14dp</item>
+    </style>
+
+    <style name="XdsLabel">
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="XdsValue">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="XdsChip">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:background">@drawable/bg_chip</item>
+    </style>
+
+    <style name="XdsButton" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:textSize">13sp</item>
+        <item name="android:minHeight">42dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <!-- 按钮多了以后文字会换行/溢出，这里统一压成一行并自适应字号 -->
+        <item name="android:maxLines">1</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">9sp</item>
+        <item name="android:autoSizeMaxTextSize">13sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+</resources>
